@@ -824,11 +824,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mathias/Projects/ErgoWorld/ErgoWorld.Android/ErgoWorld.Android.csproj",
+      "projectUniqueName": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/ErgoWorld.Android.csproj",
       "projectName": "ErgoWorld.Android",
-      "projectPath": "/Users/mathias/Projects/ErgoWorld/ErgoWorld.Android/ErgoWorld.Android.csproj",
+      "projectPath": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/ErgoWorld.Android.csproj",
       "packagesPath": "/Users/mathias/.nuget/packages/",
-      "outputPath": "/Users/mathias/Projects/ErgoWorld/ErgoWorld.Android/obj",
+      "outputPath": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mathias/.config/NuGet/NuGet.Config"
@@ -842,8 +842,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/mathias/Projects/ErgoWorld/ErgoWorld/ErgoWorld.csproj": {
-              "projectPath": "/Users/mathias/Projects/ErgoWorld/ErgoWorld/ErgoWorld.csproj"
+            "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/ErgoWorld.csproj": {
+              "projectPath": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/ErgoWorld.csproj"
             }
           }
         }

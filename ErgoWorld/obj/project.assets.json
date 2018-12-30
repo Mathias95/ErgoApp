@@ -386,11 +386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mathias/Projects/ErgoWorld/ErgoWorld/ErgoWorld.csproj",
+      "projectUniqueName": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/ErgoWorld.csproj",
       "projectName": "ErgoWorld",
-      "projectPath": "/Users/mathias/Projects/ErgoWorld/ErgoWorld/ErgoWorld.csproj",
+      "projectPath": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/ErgoWorld.csproj",
       "packagesPath": "/Users/mathias/.nuget/packages/",
-      "outputPath": "/Users/mathias/Projects/ErgoWorld/ErgoWorld/obj",
+      "outputPath": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

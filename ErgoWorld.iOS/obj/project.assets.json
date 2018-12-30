@@ -807,11 +807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mathias/Projects/ErgoWorld/ErgoWorld.iOS/ErgoWorld.iOS.csproj",
+      "projectUniqueName": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/ErgoWorld.iOS.csproj",
       "projectName": "ErgoWorld.iOS",
-      "projectPath": "/Users/mathias/Projects/ErgoWorld/ErgoWorld.iOS/ErgoWorld.iOS.csproj",
+      "projectPath": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/ErgoWorld.iOS.csproj",
       "packagesPath": "/Users/mathias/.nuget/packages/",
-      "outputPath": "/Users/mathias/Projects/ErgoWorld/ErgoWorld.iOS/obj",
+      "outputPath": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mathias/.config/NuGet/NuGet.Config"
@@ -825,8 +825,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/mathias/Projects/ErgoWorld/ErgoWorld/ErgoWorld.csproj": {
-              "projectPath": "/Users/mathias/Projects/ErgoWorld/ErgoWorld/ErgoWorld.csproj"
+            "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/ErgoWorld.csproj": {
+              "projectPath": "/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/ErgoWorld.csproj"
             }
           }
         }

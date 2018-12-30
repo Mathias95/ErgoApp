@@ -15,5 +15,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\VideoPage.cs" />
+    <Compile Remove="Views\StePageOne.xaml.cs" />
+    <Compile Remove="Views\StepPageTwo.xaml.cs" />
   </ItemGroup>
 </Project>
