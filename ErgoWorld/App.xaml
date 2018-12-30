@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ErgoWorld.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Global Styles-->
+            <Color x:Key="PrimaryColor">#5495F8</Color>
+            <Color x:Key="WhiteColor">#ffffff</Color>
+            <Color x:Key="DarkGreyColor">#464646</Color>
+            <Color x:Key="LightGreyColor">#F9F9F9</Color>
+            
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource PrimaryColor}" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
+
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="TextColor" Value="{StaticResource DarkGreyColor}"/>
+            </Style>
+
+            <Style x:Key="HeadingStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="38"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
+            <Style x:Key="MainHeading" BasedOn="{StaticResource HeadingStyle}" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource PrimaryColor}"/>
+            </Style>
+
+            <Style x:Key="TileHeading" BasedOn="{StaticResource HeadingStyle}" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource WhiteColor}"/>
+            </Style>
+
+            <Style x:Key="SubHeading" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource DarkGreyColor}"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
