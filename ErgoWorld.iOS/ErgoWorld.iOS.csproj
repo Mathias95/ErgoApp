@@ -146,11 +146,11 @@
     <BundleResource Include="Resources\profile.png" />
     <BundleResource Include="Resources\step1.png" />
     <BundleResource Include="Resources\step2.png" />
-    <BundleResource Include="Resources\tile1.jpg" />
-    <BundleResource Include="Resources\tile2.jpg" />
-    <BundleResource Include="Resources\tile3.jpg" />
-    <BundleResource Include="Resources\tile4.jpg" />
     <BundleResource Include="Resources\backspace.png" />
+    <BundleResource Include="Resources\tile2.png" />
+    <BundleResource Include="Resources\tile4.png" />
+    <BundleResource Include="Resources\tile3.png" />
+    <BundleResource Include="Resources\tile1.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

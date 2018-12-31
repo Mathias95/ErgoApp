@@ -6,7 +6,7 @@
         <ScrollView>
             <Grid Padding="40">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="420"/>
+                    <RowDefinition Height="450"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>

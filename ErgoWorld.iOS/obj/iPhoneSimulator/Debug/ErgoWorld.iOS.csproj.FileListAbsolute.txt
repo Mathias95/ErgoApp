@@ -135,6 +135,12 @@
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/bin/iPhoneSimulator/Debug/ErgoWorld.dll
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/bin/iPhoneSimulator/Debug/ErgoWorld.pdb
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/ErgoWorld.iOS.csprojAssemblyReference.cache
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/ErgoWorld.iOS.csproj.CoreCompileInputs.cache
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/ErgoWorld.iOS.csproj.CopyComplete
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/ErgoWorld.iOS.exe
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/ErgoWorld.iOS.pdb
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/ibtool/_BundleResourceWithLogicalName.items
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/actool/_PartialAppManifest.items
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/actool/_BundleResourceWithLogicalName.items
@@ -171,10 +177,8 @@
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/step1.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/step2.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/backspace.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/tile2.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/tile4.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/tile3.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/tile1.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/
-/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/ErgoWorld.iOS.csprojAssemblyReference.cache
-/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/ErgoWorld.iOS.csproj.CoreCompileInputs.cache
-/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
-/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/ErgoWorld.iOS.csproj.CopyComplete
-/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/ErgoWorld.iOS.exe
-/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/ErgoWorld.iOS.pdb

@@ -97,10 +97,10 @@
     <AndroidResource Include="Resources\drawable\share.png" />
     <AndroidResource Include="Resources\drawable\step1.png" />
     <AndroidResource Include="Resources\drawable\step2.png" />
-    <AndroidResource Include="Resources\drawable\tile1.jpg" />
-    <AndroidResource Include="Resources\drawable\tile2.jpg" />
-    <AndroidResource Include="Resources\drawable\tile3.jpg" />
-    <AndroidResource Include="Resources\drawable\tile4.jpg" />
+    <AndroidResource Include="Resources\drawable\tile2.png" />
+    <AndroidResource Include="Resources\drawable\tile4.png" />
+    <AndroidResource Include="Resources\drawable\tile3.png" />
+    <AndroidResource Include="Resources\drawable\tile1.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />

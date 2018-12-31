@@ -27,21 +27,21 @@
             <StackLayout Grid.Column="0" 
                          Grid.ColumnSpan="2" 
                          Grid.Row="1">
-                <Grid>
+                <Grid ColumnSpacing="30">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
                     <Frame Grid.Column="0"
-                           BackgroundColor="Transparent"
+                           BackgroundColor="Red"
                            HasShadow="false"
-                           Margin="0, 0, 25, 0"
+                           Margin="0, 0, 0, 0"
                            Padding="0"
                            CornerRadius="18"
-                           IsClippedToBounds="true"
-                           HeightRequest="300">
-                        <Image Source="lessonimg.jpg" Aspect="AspectFill"/>
+                           IsClippedToBounds="True"
+                           >
+                        <Image Source="lessonimg.jpg"/>
                     </Frame>
 
                     <Frame Grid.Column="1" 
