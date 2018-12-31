@@ -1,11 +1,13 @@
-﻿<Properties StartupConfiguration="{6C776FEA-2607-403D-8C31-FBE80061B406}|Default">
+﻿<Properties StartupConfiguration="{30B3C99C-E71B-42F0-8741-2951AB7C237C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ErgoWorld/Views/HomePage.xaml">
     <Files>
-      <File FileName="ErgoWorld/Views/CompletePage.xaml" Line="25" Column="1" />
-      <File FileName="ErgoWorld/Views/HomePage.xaml" Line="83" Column="1" />
+      <File FileName="ErgoWorld/Views/AboutPage.xaml" Line="68" Column="15" />
+      <File FileName="ErgoWorld/Views/ItemsPage.xaml" Line="28" Column="15" />
+      <File FileName="ErgoWorld/Views/ItemDetailPage.xaml" Line="9" Column="15" />
+      <File FileName="ErgoWorld/Views/HomePage.xaml" Line="73" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ErgoWorld.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.ErgoWorld.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.table_android" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ErgoWorld.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5402F3AF-D40C-4B56-A597-DE38E63A8650" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

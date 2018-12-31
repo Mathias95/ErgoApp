@@ -1,4 +1,4 @@
-/Users/mathias/Projects/ErgoWorld/ErgoWorld.iOS/bin/iPhoneSimulator/Debug/ErgoWorld.iOS.exe
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/bin/iPhoneSimulator/Debug/ErgoWorld.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/System.dll
@@ -24,4 +24,4 @@
 /Users/mathias/.nuget/packages/octane.xam.videoplayer/2.2.0/lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll
 /Users/mathias/.nuget/packages/octane.xam.videoplayer/2.2.0/lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll
 /Users/mathias/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
-/Users/mathias/Projects/ErgoWorld/ErgoWorld/bin/Debug/netstandard2.0/ErgoWorld.dll
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/bin/Debug/netstandard2.0/ErgoWorld.dll

@@ -46,35 +46,42 @@
                     <Frame Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="7" Padding="0" HasShadow="false">
                         <Grid>
                             <Image Source="tile1.png" Aspect="Fill"/>
-                            <Label Text="Hjertet" Style="{StaticResource TileHeading}"/>
-                            <Label Text="Blodets strøm til, gennem og fra hjertet"/>
+                            <StackLayout Padding="30">
+                                <Label Text="Hjertet" Style="{StaticResource TileHeading}"/>
+                                <Label Text="Blodets strøm til, gennem og fra hjertet" TextColor="{StaticResource WhiteColor}" FontSize="15"/>
+                            </StackLayout>
                         </Grid>
                     </Frame>
                     
                     <Frame Grid.Column="7" Grid.Row="0" Grid.ColumnSpan="5" Padding="0" HasShadow="false">
                         <Grid>
                             <Image Source="tile2.png" Aspect="Fill"/>
-                            <Label Text="Noter" Style="{StaticResource TileHeading}"/>
-                            <Label Text="Se dagens noter"/>
+                            <StackLayout Padding="30">
+                                <Label Text="Noter" Style="{StaticResource TileHeading}"/>
+                                <Label Text="Se dagens noter" TextColor="{StaticResource WhiteColor}" FontSize="15"/>
+                            </StackLayout>
                         </Grid>
                     </Frame>
                     
                     <Frame Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="5" Padding="0" HasShadow="false">
                         <Grid>
                             <Image Source="tile3.png" Aspect="Fill"/>
-                            <Label Text="Scenarios" Style="{StaticResource TileHeading}"/>
-                            <Label Text="Lorem ipsum dolor sit amet, agam corpora"/>
+                            <StackLayout Padding="30">
+                                <Label Text="Scenarios" Style="{StaticResource TileHeading}"/>
+                                <Label Text="Lorem ipsum dolor sit amet, agam corpora" TextColor="{StaticResource WhiteColor}" FontSize="15"/>
+                            </StackLayout>
                         </Grid>
                     </Frame>
                     
                     <Frame Grid.Column="5" Grid.Row="1" Grid.ColumnSpan="7" Padding="0" HasShadow="false">
                         <Grid>
                             <Image Source="tile4.png" Aspect="Fill"/>
-                            <Label Text="Forelæsninger" Style="{StaticResource TileHeading}"/>
-                            <Label Text="Se andre forelæsninger"/>
+                            <StackLayout Margin="25">
+                                <Label Text="Forelæsninger" Style="{StaticResource TileHeading}"/>
+                                <Label Text="Se andre forelæsninger" TextColor="{StaticResource WhiteColor}" FontSize="15"/>    
+                            </StackLayout>
                         </Grid>
                     </Frame>
-                    
                 </Grid>
             </Grid>
         </ScrollView>
