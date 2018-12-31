@@ -70,7 +70,6 @@
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/bin/Debug/ErgoWorld.pdb
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/ErgoWorld.Android.nuget.stamp
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/ErgoWorld.Android.csprojAssemblyReference.cache
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/libraryimports.cache.stamp
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res.flag
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/ErgoWorld.Android.csproj.CoreCompileInputs.cache
@@ -107,13 +106,16 @@
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/share.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/step1.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/step2.png
-/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/R.cs.flag
-/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/R.txt
-/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/uploadflags.txt
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/tile2.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/tile4.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/tile3.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/tile1.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/R.cs.flag
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/R.txt
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/uploadflags.txt
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/ErgoWorld.Android.csprojAssemblyReference.cache
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/sliderselected.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/slider.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/linksrc/ErgoWorld.Android.pdb
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/linksrc/ErgoWorld.pdb
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/linksrc/Mono.Android.pdb

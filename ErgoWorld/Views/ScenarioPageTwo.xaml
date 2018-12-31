@@ -1,5 +1,68 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ErgoWorld.Views.ScenarioPageTwo">
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:o="clr-namespace:Octane.Xamarin.Forms.VideoPlayer;assembly=Octane.Xamarin.Forms.VideoPlayer"
+             x:Class="ErgoWorld.Views.ScenarioPageTwo">
     <ContentPage.Content>
+        <Grid Padding="40" RowSpacing="0" ColumnSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            
+            <StackLayout Padding="0,0,0,40" Grid.Column="0" Grid.ColumnSpan="2">
+                <Label Text="Øvelse 2" Style="{StaticResource MainHeading}"/>
+            </StackLayout>
+            
+            <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                <Grid ColumnSpacing="30">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Frame BackgroundColor="{StaticResource LightGreyColor}" Grid.Column="0" CornerRadius="18" Padding="30" HasShadow="false" VerticalOptions="StartAndExpand">
+                        <StackLayout>
+                            <Label Text="Foretag følgende øvelser" Style="{StaticResource SubHeading}" Margin="0,0,0,20"/>
+                            <Label LineBreakMode="WordWrap">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Lorem ipsum dolor sit amet, agam corpora vulputate id eum. Et malis iisque praesent pro, in pri dolorum recusabo. Et dolorum recusabo eos, nam ex suas choro rationibus. Nihil vocent consectetuer ad his, eu nec malis prompta. Ei dolor decore maiorum nec, vivendo fuisset appareat sit ex. No mea nostrud probatus, vix tacimates maluisset et."
+                                              LineHeight="1.5" Style="{StaticResource LabelStyle}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </Frame>
+                    <StackLayout Grid.Column="1" HeightRequest="350">
+                        <o:VideoPlayer Source="http://vjs.zencdn.net/v/oceans.mp4" AutoPlay="false"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+            <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                <Grid ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <FlexLayout Grid.Column="1" JustifyContent="Center" AlignItems="Center">
+                       <Image Source="SliderSelected.png"/> 
+                       <Image Source="SliderSelected.png" Margin="15,0"/>
+                       <Image Source="Slider.png"/>
+                    </FlexLayout>
+                    <StackLayout HorizontalOptions="End" Grid.Column="2">
+                        <Button x:Name="btn_Next" Image="backspace.png" BackgroundColor="{StaticResource PrimaryColor}" CornerRadius="35" HeightRequest="70" WidthRequest="70">
+                        </Button>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

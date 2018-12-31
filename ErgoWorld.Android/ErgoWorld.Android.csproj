@@ -101,6 +101,8 @@
     <AndroidResource Include="Resources\drawable\tile4.png" />
     <AndroidResource Include="Resources\drawable\tile3.png" />
     <AndroidResource Include="Resources\drawable\tile1.png" />
+    <AndroidResource Include="Resources\drawable\SliderSelected.png" />
+    <AndroidResource Include="Resources\drawable\Slider.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />

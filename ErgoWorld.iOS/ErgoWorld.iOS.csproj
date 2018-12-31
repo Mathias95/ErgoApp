@@ -114,12 +114,6 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <BundleResource Include="Resources\tab_about.png" />
-    <BundleResource Include="Resources\tab_about%402x.png" />
-    <BundleResource Include="Resources\tab_about%403x.png" />
-    <BundleResource Include="Resources\tab_feed.png" />
-    <BundleResource Include="Resources\tab_feed%402x.png" />
-    <BundleResource Include="Resources\tab_feed%403x.png" />
     <BundleResource Include="Resources\xamarin_logo.png" />
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
@@ -151,6 +145,9 @@
     <BundleResource Include="Resources\tile4.png" />
     <BundleResource Include="Resources\tile3.png" />
     <BundleResource Include="Resources\tile1.png" />
+    <BundleResource Include="Resources\creative.png" />
+    <BundleResource Include="Resources\SliderSelected.png" />
+    <BundleResource Include="Resources\Slider.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
