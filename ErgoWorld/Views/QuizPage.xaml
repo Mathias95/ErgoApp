@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ErgoWorld.Views.QuizPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ErgoWorld.Views.QuizPage" Title="Quiz">
     <ContentPage.Content>
         <Grid Padding="40">
             <Grid.ColumnDefinitions>
@@ -24,24 +24,61 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     
-                    <Frame BackgroundColor="Transparent" Grid.Column="0" CornerRadius="18" HasShadow="false" VerticalOptions="StartAndExpand" Padding="0" IsClippedToBounds="true">
-                        <Image Source="lessonimg.jpg"/>
+                    <Frame BackgroundColor="Transparent" 
+                           Grid.Column="0" 
+                           CornerRadius="18" 
+                           HasShadow="false" 
+                           VerticalOptions="StartAndExpand" 
+                           Padding="0" 
+                           Margin="0" 
+                           IsClippedToBounds="true" 
+                           HeightRequest="330">
+                        <Image Source="lessonimg.jpg" Aspect="AspectFill"/>
                     </Frame>
                     
-                    <Frame Grid.Column="1" Style="{StaticResource RoundBox}">
+                    <Frame Grid.Column="1" 
+                           Style="{StaticResource RoundBox}">
                         <StackLayout>
                             <Label Text="Hvordan forsøger kroppen at kompensere for et dårligt fungerende hjerte?" Style="{StaticResource SubHeading}" Margin="0,0,0,20"/>
-                            <Label LineBreakMode="WordWrap">
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="Lorem ipsum dolor sit amet, agam corpora vulputate id eum. Et malis iisque praesent pro, in pri dolorum recusabo. Et dolorum recusabo eos, nam ex suas choro rationibus. Nihil vocent consectetuer ad his, eu nec malis prompta. Ei dolor decore maiorum nec, vivendo fuisset appareat sit ex. No mea nostrud probatus, vix tacimates maluisset et."
-                                              LineHeight="1.5" Style="{StaticResource LabelStyle}"/>
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
+                            <ListView x:Name="QuizList" 
+                                      BackgroundColor="Transparent" 
+                                      SeparatorVisibility="None" 
+                                      SelectionMode="None">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <FlexLayout>
+                                                <Label Text="{Binding Answer}" 
+                                                       Style="{StaticResource LabelStyle}"/>
+                                                <Switch IsToggled="{Binding Selected}" 
+                                                        OnColor="{StaticResource PrimaryColor}"/>
+                                            </FlexLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>  
+                            </ListView>
                         </StackLayout>
                     </Frame>
-                    
+                </Grid>
+            </StackLayout>
+            <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                <Grid ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <FlexLayout Grid.Column="1" JustifyContent="Center" AlignItems="Center">
+                       <Image Source="SliderSelected.png"/> 
+                       <Image Source="Slider.png" Margin="15,0"/>
+                       <Image Source="Slider.png"/>
+                    </FlexLayout>
+                    <StackLayout Grid.Column="2" HorizontalOptions="End">
+                        <Button x:Name="btn_Next" 
+                                Image="backspace.png" 
+                                BackgroundColor="{StaticResource PrimaryColor}" 
+                                CornerRadius="35" HeightRequest="70" WidthRequest="70"/>
+                    </StackLayout>
                 </Grid>
             </StackLayout>
         </Grid>

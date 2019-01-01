@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ErgoWorld.Views.ScenarioPageOne">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ErgoWorld.Views.ScenarioPageOne" Title="Øvelse 1">
     <ContentPage.Content>
         <Grid Padding="40" ColumnSpacing="0" RowSpacing="0">
             <Grid.ColumnDefinitions>
@@ -76,8 +76,7 @@
                        <Image Source="Slider.png"/>
                     </FlexLayout>
                     <StackLayout HorizontalOptions="End" Grid.Column="2">
-                        <Button x:Name="btn_Next" Image="backspace.png" BackgroundColor="{StaticResource PrimaryColor}" CornerRadius="35" HeightRequest="70" WidthRequest="70">
-                        </Button>
+                        <Button x:Name="btn_Next" Image="backspace.png" BackgroundColor="{StaticResource PrimaryColor}" CornerRadius="35" HeightRequest="70" WidthRequest="70"/>
                     </StackLayout>
                 </Grid>
             </StackLayout>

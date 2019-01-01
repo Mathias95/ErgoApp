@@ -18,7 +18,7 @@
                 </OnPlatform>
             </NavigationPage.Icon>
             <x:Arguments>
-                <views:VideoPage />
+                <views:LecturePage />
             </x:Arguments>
         </NavigationPage>
         <NavigationPage Title="Noter">
