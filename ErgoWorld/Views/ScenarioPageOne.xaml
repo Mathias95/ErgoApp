@@ -23,7 +23,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     
-                    <Frame BackgroundColor="{StaticResource LightGreyColor}" Grid.Column="0" CornerRadius="18" Padding="30" HasShadow="false" VerticalOptions="StartAndExpand">
+                    <Frame Grid.Column="0" Style="{StaticResource RoundBox}">
                         <StackLayout>
                             <Label Text="Find din gruppe" Style="{StaticResource SubHeading}" Margin="0,0,0,20"/>
                             <Label LineBreakMode="WordWrap">
@@ -45,7 +45,7 @@
                         </StackLayout>
                     </Frame>
                     
-                    <Frame BackgroundColor="{StaticResource LightGreyColor}" Grid.Column="1" CornerRadius="18" Padding="30" HasShadow="false" VerticalOptions="StartAndExpand">
+                    <Frame Grid.Column="1" Style="{StaticResource RoundBox}">
                         <StackLayout>
                             <FlexLayout AlignItems="Center" JustifyContent="SpaceBetween" Margin="0,0,0,20">
                                 <Label Text="Tip" Style="{StaticResource SubHeading}"/>

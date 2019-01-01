@@ -18,4 +18,8 @@
     <Compile Remove="Views\StePageOne.xaml.cs" />
     <Compile Remove="Views\StepPageTwo.xaml.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\StePageOne.xaml" />
+    <EmbeddedResource Remove="Views\StepPageTwo.xaml" />
+  </ItemGroup>
 </Project>

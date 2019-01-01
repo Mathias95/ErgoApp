@@ -27,7 +27,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     
-                    <Frame BackgroundColor="{StaticResource LightGreyColor}" Grid.Column="0" CornerRadius="18" Padding="30" HasShadow="false" VerticalOptions="StartAndExpand">
+                    <Frame Grid.Column="0" Style="{StaticResource RoundBox}">
                         <StackLayout>
                             <Label Text="Foretag følgende øvelser" Style="{StaticResource SubHeading}" Margin="0,0,0,20"/>
                             <Label LineBreakMode="WordWrap">

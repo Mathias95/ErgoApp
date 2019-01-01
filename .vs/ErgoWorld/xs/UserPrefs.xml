@@ -1,12 +1,5 @@
 ﻿<Properties StartupConfiguration="{6C776FEA-2607-403D-8C31-FBE80061B406}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ErgoWorld/Views/ItemDetailPage.xaml">
-    <Files>
-      <File FileName="ErgoWorld/Views/ScenarioPageOne.xaml" Line="78" Column="21" />
-      <File FileName="ErgoWorld/Views/ScenarioPageTwo.xaml" Line="64" Column="24" />
-      <File FileName="ErgoWorld/Views/VideoPage.xaml" Line="30" Column="45" />
-      <File FileName="ErgoWorld/Views/ItemDetailPage.xaml" Line="9" Column="15" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.ErgoWorld.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.table_android" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ErgoWorld.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5402F3AF-D40C-4B56-A597-DE38E63A8650" />

@@ -36,6 +36,14 @@
                 <Setter Property="FontSize" Value="20"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
             </Style>
+            
+            <Style x:Key="RoundBox" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="18"/>
+                <Setter Property="Padding" Value="30"/>
+                <Setter Property="HasShadow" Value="false"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource LightGreyColor}"/>
+                <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
