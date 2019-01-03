@@ -76,7 +76,7 @@
                        <Image Source="Slider.png"/>
                     </FlexLayout>
                     <StackLayout HorizontalOptions="End" Grid.Column="2">
-                        <Button x:Name="btn_Next" Image="backspace.png" BackgroundColor="{StaticResource PrimaryColor}" CornerRadius="35" HeightRequest="70" WidthRequest="70"/>
+                        <Button Clicked="BtnNext" Image="backspace.png" BackgroundColor="{StaticResource PrimaryColor}" CornerRadius="35" HeightRequest="70" WidthRequest="70"/>
                     </StackLayout>
                 </Grid>
             </StackLayout>

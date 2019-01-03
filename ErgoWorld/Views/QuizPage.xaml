@@ -26,11 +26,8 @@
                     
                     <Frame BackgroundColor="Transparent" 
                            Grid.Column="0" 
-                           CornerRadius="18" 
-                           HasShadow="false" 
-                           VerticalOptions="StartAndExpand" 
-                           Padding="0" 
-                           Margin="0" 
+                           Style="{StaticResource RoundBox}"
+                           Padding="0"
                            IsClippedToBounds="true" 
                            HeightRequest="330">
                         <Image Source="lessonimg.jpg" Aspect="AspectFill"/>
@@ -39,20 +36,30 @@
                     <Frame Grid.Column="1" 
                            Style="{StaticResource RoundBox}">
                         <StackLayout>
-                            <Label Text="Hvordan forsøger kroppen at kompensere for et dårligt fungerende hjerte?" Style="{StaticResource SubHeading}" Margin="0,0,0,20"/>
+                            <Label Text="Hvordan forsøger kroppen at kompensere for et dårligt fungerende hjerte?" Style="{StaticResource SubHeading}" Margin="0,0,0,20" VerticalOptions="Center"/>
                             <ListView x:Name="QuizList" 
-                                      BackgroundColor="Transparent" 
                                       SeparatorVisibility="None" 
                                       SelectionMode="None">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <ViewCell>
-                                            <FlexLayout>
+                                            <Grid ColumnSpacing="20"> 
+                                                <Grid.ColumnDefinitions> 
+                                                    <ColumnDefinition Width="*" /> 
+                                                    <ColumnDefinition Width="Auto" /> 
+                                                </Grid.ColumnDefinitions> 
+                                                
                                                 <Label Text="{Binding Answer}" 
-                                                       Style="{StaticResource LabelStyle}"/>
-                                                <Switch IsToggled="{Binding Selected}" 
-                                                        OnColor="{StaticResource PrimaryColor}"/>
-                                            </FlexLayout>
+                                                       Grid.Column="0"
+                                                       FontSize="13"
+                                                       TextColor="{StaticResource DarkGreyColor}"
+                                                       HorizontalOptions="Start"
+                                                       VerticalOptions="Center"/>
+                                                <Switch IsToggled="{Binding Selected}"
+                                                        OnColor="{StaticResource PrimaryColor}"
+                                                        Grid.Column="1"
+                                                        VerticalOptions="Center"/> 
+                                            </Grid>
                                         </ViewCell>
                                     </DataTemplate>
                                 </ListView.ItemTemplate>  

@@ -11,5 +11,9 @@ namespace ErgoWorld.Views
         {
             InitializeComponent();
         }
+        private async void BtnNext(Object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new CompletePage()); //Go to homepage
+        }
     }
 }

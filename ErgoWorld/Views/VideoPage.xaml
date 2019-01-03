@@ -28,7 +28,7 @@
                     </Label>
                 </StackLayout>
                 <StackLayout Grid.Row="2" HorizontalOptions="End" Margin="0,40,0,0">
-                    <Button x:Name="btn_Next" Image="backspace.png" BackgroundColor="{StaticResource PrimaryColor}" CornerRadius="35" HeightRequest="70" WidthRequest="70">
+                    <Button Clicked="BtnNext" Image="backspace.png" BackgroundColor="{StaticResource PrimaryColor}" CornerRadius="35" HeightRequest="70" WidthRequest="70">
                     </Button>
                 </StackLayout>
             </Grid>         
