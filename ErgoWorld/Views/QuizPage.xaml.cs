@@ -11,6 +11,8 @@ namespace ErgoWorld.Views
         {
             InitializeComponent();
 
+            BtnForward.Clicked += (s, e) => Navigation.PushAsync(new CompletePage());
+
             QuizList.ItemsSource = new List<QuizAnswer>()
             {
                 new QuizAnswer()

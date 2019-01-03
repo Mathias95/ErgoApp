@@ -83,7 +83,7 @@
                        <Image Source="Slider.png"/>
                     </FlexLayout>
                     <StackLayout Grid.Column="2" HorizontalOptions="End">
-                        <Button 
+                        <Button x:Name="BtnForward"
                                 Image="backspace.png" 
                                 BackgroundColor="{StaticResource PrimaryColor}" 
                                 CornerRadius="35" HeightRequest="70" WidthRequest="70"/>
