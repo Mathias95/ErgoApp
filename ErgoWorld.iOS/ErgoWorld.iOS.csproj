@@ -148,6 +148,10 @@
     <BundleResource Include="Resources\creative.png" />
     <BundleResource Include="Resources\SliderSelected.png" />
     <BundleResource Include="Resources\Slider.png" />
+    <BundleResource Include="Resources\add.png" />
+    <BundleResource Include="Resources\attachment.png" />
+    <BundleResource Include="Resources\delete.png" />
+    <BundleResource Include="Resources\share.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

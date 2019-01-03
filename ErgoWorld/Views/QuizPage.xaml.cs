@@ -19,15 +19,15 @@ namespace ErgoWorld.Views
                 },
                 new QuizAnswer()
                 {
-                    Answer = "Aktivering af sympatikus og renin-angiotensin-aldosteronsys\nThis is a correct answer\n",
+                    Answer = "Aktivering af sympatikus og renin-angiotensin-aldosteronsys",
                 },
                 new QuizAnswer()
                 {
-                    Answer = "Nedsætter preload hvorved hjertet aflastes\\nThis is a wrong answer\\n",
+                    Answer = "Nedsætter preload hvorved hjertet aflastes",
                 },
                 new QuizAnswer()
                 {
-                    Answer = "Ventrikelremodellering (hypertrofi/dialatation)\nThis is a correct answer\n",
+                    Answer = "Ventrikelremodellering (hypertrofi/dialatation)",
                 },
             };
         }

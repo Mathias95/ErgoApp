@@ -116,6 +116,7 @@
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/ErgoWorld.Android.csprojAssemblyReference.cache
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/sliderselected.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/slider.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/res/drawable/add.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/linksrc/ErgoWorld.Android.pdb
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/linksrc/ErgoWorld.pdb
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.Android/obj/Debug/linksrc/Mono.Android.pdb

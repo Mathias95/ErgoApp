@@ -21,8 +21,16 @@
                     <Label LineBreakMode="WordWrap">
                         <Label.FormattedText>
                             <FormattedString>
-                                <Span Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                <Span Text="Hjertet består af fire hjertekamre: Forkamre og hovedkamre. Forkamrene kaldes også atrier. Hovedkamrene kaldes også hjertekamre eller ventrikler Hjertet er i virkeligheden en stor muskel med fire hulrum, som kaldes hjertekamre. De to hjertekamre i venstre side af hjertet er fuldstændig adskilt fra de to hjertekamre i højre side. "
                                       LineHeight="1.5" Style="{StaticResource LabelStyle}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label LineBreakMode="WordWrap">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Det skyldes, at de to hjertehalvdele leverer blod til to forskellige kredsløb: den højre del leverer til lungekredsløbet (hvor blodet iltes) og den venstre del leverer til system-kredsløbet (dvs. resten af kroppen, hvor ilten forbruges).
+Lungekredsløbet er meget mindre end det systemiske kredsløb, så der kræves et mindre tryk for at pumpe blodet gennem lungekredsløbet. Derfor har hjertekamrene i højre hjertehalvdel tyndere vægge end i venstre hjertehalvdel." LineHeight="1.5" Style="{StaticResource LabelStyle}"/>
                             </FormattedString>
                         </Label.FormattedText>
                     </Label>

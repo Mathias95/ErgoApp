@@ -45,3 +45,5 @@
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/obj/Debug/netstandard2.0/ErgoWorld.dll
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/obj/Debug/netstandard2.0/ErgoWorld.pdb
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/obj/Debug/netstandard2.0/Views/LecturePage.xaml.g.cs
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/obj/Debug/netstandard2.0/Views/Notes.xaml.g.cs
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld/obj/Debug/netstandard2.0/Views/NoteDetails.xaml.g.cs

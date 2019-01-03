@@ -1,10 +1,5 @@
 ﻿<Properties StartupConfiguration="{6C776FEA-2607-403D-8C31-FBE80061B406}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ErgoWorld/Views/ScenarioPageTwo.xaml">
-    <Files>
-      <File FileName="ErgoWorld/Views/ScenarioPageOne.xaml" Line="77" Column="34" />
-      <File FileName="ErgoWorld/Views/ScenarioPageTwo.xaml" Line="70" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.ErgoWorld.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.table_android" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ErgoWorld.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5402F3AF-D40C-4B56-A597-DE38E63A8650" />

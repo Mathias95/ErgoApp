@@ -2,9 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="ErgoWorld.Views.SearchPage"
-             NavigationPage.HasNavigationBar="False">
+             Title="Søg">
 
-        <StackLayout Padding="0,20,0,0">
+        <StackLayout>
             <SearchBar x:Name="FunctionSearch" SearchButtonPressed="FunctionSearch_OnSearchButtonPressed" Placeholder="Søg" BackgroundColor="#CDCDCE"/>
             <ListView x:Name="SearchList" BackgroundColor="Transparent" SeparatorColor="{StaticResource LightGreyColor}"/>
         </StackLayout>

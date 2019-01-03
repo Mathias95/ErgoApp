@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ErgoWorld.Views.Notes" xmlns:views="ErgoWorld.Views.NoteDetails" Title="Noter">
+       <Grid RowSpacing="40" 
+         Padding="40" 
+         ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="14" Grid.RowSpan="1">
+            <Label Text="Notes" FontAttributes="Bold" TextColor="#5495F8" FontSize="50" HorizontalOptions="Start" VerticalOptions="Start" />
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Opret ny" 
+                        BackgroundColor="Transparent" 
+                        VerticalOptions="Start"
+                        HorizontalOptions="End"
+                        HeightRequest="20"
+                        FontAttributes="Bold"
+                        TextColor="#5495F8"
+                        FontSize="20"> 
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource" 
+                                    iOS="add.png" 
+                                    Android="add.png"/>
+                    </Button.Image>
+                </Button>
+            </StackLayout>
+        </FlexLayout>
+        
+        <ListView x:Name="NoteList"
+                  Grid.Row="1"
+                  Grid.Column="0"
+                  Grid.ColumnSpan="3"
+                  SelectionMode="Single"
+                  ItemTapped="NoteTapped"
+                  SeparatorColor="#f9f9f9"
+                  RowHeight="60"
+                  Margin="0, 25">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Slet" 
+                                      IsDestructive="true"
+                                      CommandParameter="{Binding Heading}"
+                                      Clicked="OnDelete"/>
+                        </ViewCell.ContextActions>
+                        
+                        <StackLayout Padding="20, 0, 0, 0" 
+                                     VerticalOptions="Center">
+                            <Label Text="{Binding Heading}"
+                                   FontSize="Medium"/>
+                            <Label Text="{Binding Date}"
+                                   FontSize="Micro"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        <Frame Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="11" CornerRadius="25" HasShadow="true" Padding="0" IsClippedToBounds="true">
+            <views:NoteDetails/>
+        </Frame>
+        
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End" VerticalOptions="End" Padding="20" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="11" Grid.RowSpan="1">
+            <StackLayout Padding="0,3,10,0" Orientation="Horizontal">
+                <Image Source="share.png" HeightRequest="20" Margin="5" />
+                <Button Text="Snare" FontAttributes="Bold" TextColor="#5495F8" FontSize="20" HorizontalOptions="End" VerticalOptions="Start" ></Button>
+            </StackLayout>
+            
+            <StackLayout Padding="0,3,10,0" Orientation="Horizontal">
+                <Image Source="attachment.png" HeightRequest="20" Margin="5" />
+                <Button Text="Insert" FontAttributes="Bold" TextColor="#5495F8" FontSize="20" HorizontalOptions="End" VerticalOptions="Start" ></Button>
+            </StackLayout>
+            
+            <StackLayout Padding="0,3,10,0" Orientation="Horizontal">
+                <Image Source="delete-button.png" HeightRequest="20" Margin="5" />
+                <Button Text="Delete" FontAttributes="Bold" TextColor="#5495F8" FontSize="20" HorizontalOptions="End" VerticalOptions="Start" ></Button>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

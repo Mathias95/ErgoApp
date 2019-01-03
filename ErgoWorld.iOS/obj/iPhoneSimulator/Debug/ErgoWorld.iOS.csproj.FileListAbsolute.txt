@@ -179,3 +179,7 @@
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/creative.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/SliderSelected.png
 /Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/Slider.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/add.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/attachment.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/delete.png
+/Users/mathias/Documents/GitHub/ErgoApp/ErgoWorld.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad7.4-12.1/optimized/share.png

@@ -18,7 +18,7 @@
             </Grid.RowDefinitions>
             
             <StackLayout Padding="0,0,0,40" Grid.Column="0" Grid.ColumnSpan="2">
-                <Label Text="Øvelse 2" Style="{StaticResource MainHeading}"/>
+                <Label Text="Trin 2" Style="{StaticResource MainHeading}"/>
             </StackLayout>
             
             <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
@@ -30,11 +30,11 @@
                     
                     <Frame Grid.Column="0" Style="{StaticResource RoundBox}">
                         <StackLayout>
-                            <Label Text="Foretag følgende øvelser" Style="{StaticResource SubHeading}" Margin="0,0,0,20"/>
+                            <Label Text="Trafikuheld for Nikolaj Jørgensen" Style="{StaticResource SubHeading}" Margin="0,0,0,20"/>
                             <Label LineBreakMode="WordWrap">
                                 <Label.FormattedText>
                                     <FormattedString>
-                                        <Span Text="Lorem ipsum dolor sit amet, agam corpora vulputate id eum. Et malis iisque praesent pro, in pri dolorum recusabo. Et dolorum recusabo eos, nam ex suas choro rationibus. Nihil vocent consectetuer ad his, eu nec malis prompta. Ei dolor decore maiorum nec, vivendo fuisset appareat sit ex. No mea nostrud probatus, vix tacimates maluisset et."
+                                        <Span Text="Ved et trafikuheld pådrager Nikolaj Jørgensen sig en skade i hjernen. Skaden påvirker hans kropsfunktioner og giver også nogle kognitive udfald med bl.a. nedsat hukommelse og orienteringsevne. Han kan ikke klare det samme som tidligere og heller ikke genoptage sit arbejde på nuværende tidspunkt. Det påvirker humøret, parforholdet og økonomien. Det skaber også usikkerhed omkring familiens samlede situation."
                                               LineHeight="1.5" Style="{StaticResource LabelStyle}"/>
                                     </FormattedString>
                                 </Label.FormattedText>

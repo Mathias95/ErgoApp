@@ -17,9 +17,21 @@
     <Compile Remove="Views\VideoPage.cs" />
     <Compile Remove="Views\StePageOne.xaml.cs" />
     <Compile Remove="Views\StepPageTwo.xaml.cs" />
+    <Compile Remove="Views\NotesDetailsPage.xaml.cs" />
+    <Compile Remove="Views\NotesPage.xaml.cs" />
+    <Compile Remove="Views\NotesDetailsPage.xaml.cs" />
+    <Compile Remove="Views\NotesDetails.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\StePageOne.xaml" />
     <EmbeddedResource Remove="Views\StepPageTwo.xaml" />
+    <EmbeddedResource Remove="Views\NotesPage.xaml" />
+    <EmbeddedResource Remove="Views\NotesDetailsPage.xaml" />
+    <EmbeddedResource Remove="Views\NotesDetails.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\Notes.xaml.cs">
+      <DependentUpon>Notes.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>
