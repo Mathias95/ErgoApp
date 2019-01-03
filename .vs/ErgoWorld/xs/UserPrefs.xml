@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{6C776FEA-2607-403D-8C31-FBE80061B406}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ErgoWorld/Views/HomePage.xaml">
     <Files>
-      <File FileName="ErgoWorld/Views/MainPage.xaml" Line="21" Column="32" />
-      <File FileName="ErgoWorld/Views/VideoPage.xaml" Line="13" Column="39" />
-      <File FileName="ErgoWorld/Views/QuizPage.xaml" Line="89" Column="55" />
-      <File FileName="ErgoWorld/Views/QuizPage.xaml.cs" Line="14" Column="4" />
-      <File FileName="ErgoWorld/Views/HomePage.xaml" Line="93" Column="1" />
+      <File FileName="ErgoWorld/Views/HomePage.xaml.cs" Line="22" Column="35" />
+      <File FileName="ErgoWorld/Views/ScenarioPageOne.xaml.cs" Line="14" Column="1" />
+      <File FileName="ErgoWorld/Views/HomePage.xaml" Line="91" Column="124" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ErgoWorld.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.table_android" />

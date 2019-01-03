@@ -45,7 +45,7 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    
+                 
                     <Frame Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="7" Padding="0" HasShadow="false">
                         <Grid>
                             <Image Source="tile1.png" Aspect="Fill"/>
@@ -55,7 +55,8 @@
                             </StackLayout>
                         </Grid>
                     </Frame>
-                    
+                    <Button Clicked="BtnVideo" Grid.Column="0" Grid.ColumnSpan="7" Grid.Row="0" BackgroundColor="Transparent"/>
+                   
                     <Frame Grid.Column="7" Grid.Row="0" Grid.ColumnSpan="5" Padding="0" HasShadow="false">
                         <Grid>
                             <Image Source="tile2.png" Aspect="Fill"/>
@@ -65,6 +66,7 @@
                             </StackLayout>
                         </Grid>
                     </Frame>
+                    <Button Clicked="BtnNotes" Grid.Column="7" Grid.ColumnSpan="5" Grid.Row="0" BackgroundColor="Transparent"/>
                     
                     <Frame Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="5" Padding="0" HasShadow="false">
                         <Grid>
@@ -75,6 +77,7 @@
                             </StackLayout>
                         </Grid>
                     </Frame>
+                    <Button Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="1" BackgroundColor="Transparent"/>
                     
                     <Frame Grid.Column="5" Grid.Row="1" Grid.ColumnSpan="7" Padding="0" HasShadow="false">
                         <Grid>
@@ -85,6 +88,8 @@
                             </StackLayout>
                         </Grid>
                     </Frame>
+                    <Button Clicked="BtnQuiz" Grid.Column="5" Grid.ColumnSpan="7" Grid.Row="1" BackgroundColor="Transparent"/>
+                    
                 </Grid>
             </Grid>
         </ScrollView>

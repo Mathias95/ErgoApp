@@ -11,5 +11,19 @@ namespace ErgoWorld.Views
         {
             InitializeComponent();
         }
+        private async void BtnVideo(Object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new VideoPage()); //Go to VideoPage
+        }
+        private async void BtnNotes(Object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new Notes()); //Go to NotePage
+        }
+        private async void BtnQuiz(Object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new QuizPage()); //Go to QuizPage
+        }
     }
 }
+
+//Alternative navigation
