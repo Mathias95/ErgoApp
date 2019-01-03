@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ErgoWorld.Views.Notes" xmlns:views="ErgoWorld.Views.NoteDetails" Title="Noter">
-       <Grid RowSpacing="40" 
+   <Grid RowSpacing="40" 
          Padding="40" 
          ColumnSpacing="0">
         <Grid.RowDefinitions>
@@ -24,21 +24,14 @@
         </Grid.ColumnDefinitions>
         
         <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="14" Grid.RowSpan="1">
-            <Label Text="Notes" FontAttributes="Bold" TextColor="#5495F8" FontSize="50" HorizontalOptions="Start" VerticalOptions="Start" />
+            <Label Text="Notes" Style="{StaticResource MainHeading}" />
             <StackLayout Orientation="Horizontal">
                 <Button Text="Opret ny" 
                         BackgroundColor="Transparent" 
-                        VerticalOptions="Start"
-                        HorizontalOptions="End"
-                        HeightRequest="20"
                         FontAttributes="Bold"
                         TextColor="#5495F8"
-                        FontSize="20"> 
-                    <Button.Image>
-                        <OnPlatform x:TypeArguments="FileImageSource" 
-                                    iOS="add.png" 
-                                    Android="add.png"/>
-                    </Button.Image>
+                        FontSize="20"
+                        Image="add.png"> 
                 </Button>
             </StackLayout>
         </FlexLayout>
@@ -74,25 +67,14 @@
             </ListView.ItemTemplate>
         </ListView>
         
-        <Frame Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="11" CornerRadius="25" HasShadow="true" Padding="0" IsClippedToBounds="true">
+        <Frame Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="11" CornerRadius="25" HasShadow="false" Padding="0" IsClippedToBounds="true">
             <views:NoteDetails/>
         </Frame>
         
         <StackLayout Orientation="Horizontal" HorizontalOptions="End" VerticalOptions="End" Padding="20" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="11" Grid.RowSpan="1">
-            <StackLayout Padding="0,3,10,0" Orientation="Horizontal">
-                <Image Source="share.png" HeightRequest="20" Margin="5" />
-                <Button Text="Snare" FontAttributes="Bold" TextColor="#5495F8" FontSize="20" HorizontalOptions="End" VerticalOptions="Start" ></Button>
-            </StackLayout>
-            
-            <StackLayout Padding="0,3,10,0" Orientation="Horizontal">
-                <Image Source="attachment.png" HeightRequest="20" Margin="5" />
-                <Button Text="Insert" FontAttributes="Bold" TextColor="#5495F8" FontSize="20" HorizontalOptions="End" VerticalOptions="Start" ></Button>
-            </StackLayout>
-            
-            <StackLayout Padding="0,3,10,0" Orientation="Horizontal">
-                <Image Source="delete-button.png" HeightRequest="20" Margin="5" />
-                <Button Text="Delete" FontAttributes="Bold" TextColor="#5495F8" FontSize="20" HorizontalOptions="End" VerticalOptions="Start" ></Button>
-            </StackLayout>
+            <Button Image="share.png" Text="Del" FontAttributes="Bold" TextColor="#5495F8" FontSize="20" BackgroundColor="Transparent"/>
+            <Button Image="attachment.png" Text="Indsæt" FontAttributes="Bold" TextColor="#5495F8" FontSize="20" Margin="25,0" BackgroundColor="Transparent"/> 
+            <Button Image="delete.png" Text="Slet" FontAttributes="Bold" TextColor="#5495F8" FontSize="20" HorizontalOptions="End" VerticalOptions="Start" BackgroundColor="Transparent"/>
         </StackLayout>
     </Grid>
 </ContentPage>

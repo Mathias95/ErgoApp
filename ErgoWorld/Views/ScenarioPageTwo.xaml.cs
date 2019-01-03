@@ -13,7 +13,7 @@ namespace ErgoWorld.Views
         }
         private async void BtnNext(Object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new CompletePage()); //Go to homepage
+            await Navigation.PushAsync(new CompletePage()); //Go to Complete
         }
     }
 }

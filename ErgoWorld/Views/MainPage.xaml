@@ -11,14 +11,14 @@
                 <views:HomePage />
             </x:Arguments>
         </NavigationPage>
-        <NavigationPage Title="Forelæsninger">
+        <NavigationPage Title="Quiz">
             <NavigationPage.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
                     <On Platform="iOS" Value="baseline_video_library_black_36pt_1x.png" />
                 </OnPlatform>
             </NavigationPage.Icon>
             <x:Arguments>
-                <views:VideoPage />
+                <views:QuizPage />
             </x:Arguments>
         </NavigationPage>
         <NavigationPage Title="Noter">

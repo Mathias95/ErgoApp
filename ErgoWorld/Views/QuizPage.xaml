@@ -36,10 +36,12 @@
                     <Frame Grid.Column="1" 
                            Style="{StaticResource RoundBox}">
                         <StackLayout>
-                            <Label Text="Hvordan forsøger kroppen at kompensere for et dårligt fungerende hjerte?" Style="{StaticResource SubHeading}" Margin="0,0,0,20" VerticalOptions="Center"/>
+                            <Label Text="Hvordan forsøger kroppen at kompensere for et dårligt fungerende hjerte?" Style="{StaticResource SubHeading}" Margin="0,0,0,20"/>
                             <ListView x:Name="QuizList" 
                                       SeparatorVisibility="None" 
-                                      SelectionMode="None">
+                                      SelectionMode="None"
+                                      BackgroundColor="Transparent"
+                                      >
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <ViewCell>
@@ -81,7 +83,7 @@
                        <Image Source="Slider.png"/>
                     </FlexLayout>
                     <StackLayout Grid.Column="2" HorizontalOptions="End">
-                        <Button x:Name="btn_Next" 
+                        <Button 
                                 Image="backspace.png" 
                                 BackgroundColor="{StaticResource PrimaryColor}" 
                                 CornerRadius="35" HeightRequest="70" WidthRequest="70"/>

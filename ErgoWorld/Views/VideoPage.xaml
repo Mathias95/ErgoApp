@@ -13,8 +13,11 @@
                 </Grid.RowDefinitions>
                       
                 <StackLayout Grid.Row="0">
-                    <o:VideoPlayer Source="http://vjs.zencdn.net/v/oceans.mp4" AutoPlay="false" />
+                    <o:VideoPlayer 
+                    Source="http://vjs.zencdn.net/v/oceans.mp4" 
+                    AutoPlay="false" />
                 </StackLayout>
+                
                 <StackLayout Grid.Row="1">
                     <Label Text="Hjertet" Margin="0,40,0,30" Style="{StaticResource MainHeading}"/>
                     <Label Text="Blodets strøm til, gennem og fra hjertet" Margin="0,0,0,25" Style="{StaticResource SubHeading}"/>

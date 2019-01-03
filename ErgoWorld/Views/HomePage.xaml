@@ -80,8 +80,8 @@
                         <Grid>
                             <Image Source="tile4.png" Aspect="Fill"/>
                             <StackLayout Margin="25" VerticalOptions="End">
-                                <Label Text="Forelæsninger" Style="{StaticResource TileHeading}"/>
-                                <Label Text="Se andre forelæsninger" TextColor="{StaticResource WhiteColor}" FontSize="15"/>    
+                                <Label Text="Quiz spørgsmål" Style="{StaticResource TileHeading}"/>
+                                <Label Text="Forstå emnets gang" TextColor="{StaticResource WhiteColor}" FontSize="15"/>    
                             </StackLayout>
                         </Grid>
                     </Frame>
